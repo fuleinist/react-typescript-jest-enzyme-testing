@@ -11,5 +11,5 @@ test('CheckboxWithLabel changes the text after click', () => {
     expect(checkbox.text()).toEqual('On');
 
     // Snapshot demo
-    expect(shallow).toMatchSnapshot();
+    expect(checkbox).toMatchSnapshot();
 });
